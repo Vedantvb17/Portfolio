@@ -23,9 +23,9 @@ export async function generateMetadata(): Promise<Metadata> {
   const fileContent = fs.readFileSync(filePath, 'utf-8');
   const data = JSON.parse(fileContent);
 
-  const title = data?.metadata?.title || 'Venkatesh | Portfolio';
+  const title = data?.metadata?.title || 'Vedant | Portfolio';
   const description =
-    data?.metadata?.description || 'Software Engineer Portfolio';
+    data?.metadata?.description || 'Frontend Developer Portfolio';
 
   return {
     title,

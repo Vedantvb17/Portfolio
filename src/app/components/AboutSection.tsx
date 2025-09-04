@@ -22,7 +22,7 @@ export default function AboutSection({ data }: Props) {
         <div className='flex justify-center md:justify-start'>
           <div className='relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-lg'>
             <Image
-              src='/headshot.png'
+              src='/Me.jpeg'
               alt='Profile headshot'
               fill
               className='object-cover'

@@ -10,7 +10,6 @@ import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import ProjectsSection from './components/ProjectsSection';
 import ScrollToTop from './components/ScrollToTop';
 import WebsitesSection from './components/WebsitesSection';
 import { ContentData } from './types';
@@ -39,12 +38,6 @@ export default function HomePage() {
       {content.about && (
         <section id='about'>
           <AboutSection data={content.about} />
-        </section>
-      )}
-
-      {content.projects && (
-        <section id='projects'>
-          <ProjectsSection data={content.projects} />
         </section>
       )}
 

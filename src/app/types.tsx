@@ -32,6 +32,7 @@ export interface HeroData {
     tech: string[];
     url: string;
     imageUrl: string;
+    link: string;
   }
   
   export interface WebsitesData {
